@@ -1,6 +1,6 @@
 <?php
 header('Content-type: application/json');
-header('Acess-Control-Allow-Origin: *');
+header('Access-Control-Allow-Origin: *');
 require_once "database_connection/dbh.php";
 
 $query = "SELECT * FROM students";
